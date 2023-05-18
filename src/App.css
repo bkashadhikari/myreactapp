@@ -6,7 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.bg-body-tertiary{
+  background-color: #000!important;
+}
+.bg-body-tertiary a{
+  color: #fff;
+}
+.bg-body-tertiary a:hover{
+  color: #fff;
+}
+.bg-body-tertiary button{
+  border: 1px solid #fff;
+  color: #fff;
+}
+.bg-body-tertiary button:hover{
+  background: #000;
+  border: 1px solid #000;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
